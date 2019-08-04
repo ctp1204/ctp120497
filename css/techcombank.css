@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container-login {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 86%;
+  background: white url(https://ib.techcombank.com.vn/TCB/images/icons/login_user.png) left no-repeat;
+  padding-left: 25px;
+  float: left;
+  color: #333333;
+  line-height: 30px;
+  border: none;
+  border-bottom: 1px #ccc solid;
+  margin: 10px;
+}
+
+input[type="password"] {
+  width: 86%;
+  background: white url(https://ib.techcombank.com.vn/TCB/images/icons/login_pass.png) left no-repeat;
+  padding-left: 25px;
+  float: left;
+  color: #333333;
+  line-height: 30px;
+  border: none;
+  border-bottom: 1px #ccc solid;
+  margin: 10px;
+}
+
+button.techcombank {
+padding: .9em 5em .9em;
+  -webkit-border-radius: .3em;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #d81b21;
+  border:none;
+}
+
+.dk-dn {
+  margin: 5px;
+}
+
+.dk-dn a {
+  color: #d81b21;
+}
+
+.dangnhap p {
+  padding: 10px;
+  color: #cc1b22;
+  width: auto;
+  font: 14px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  background-color: #FFFFFF;
+  top: 17px;
+}
+
+.container-login {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  height: 269px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.13);
+}
+
+.thongtin {
+  display: block;
+  height: auto;
+  width: 100%;
+  height: 270px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.13);
+  padding-top: 20px;
+  padding: 20px;
+}
+
+.item {
+  display: block;
+  height: 20px;
+  margin-top: 10px;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333333;
+  line-height: 25px;
+}
+
+.item i {
+  color: #d93d2b;
+}
+input[type="checkbox"] {
+    display: none;
+}

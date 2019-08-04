@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+.container {
+  background: #fdfbfb;
+  border: solid 2px #ccc;
+  border-radius: 15px;
+  padding: 40px 30px 10px 10px;
+  margin-top: 40px;
+  background: #f2f1f1;
+}
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 350px;
+}
+input[type="text"],
+input[type="password"] {
+  border: medium none;
+  padding: 6px;
+  margin: 5px;
+  border: 1px solid #cdcdcd;
+  width: 100%;
+  font-size: 12px;
+  font-family: Arial, Tahoma;
+}
+
+.btn-vcb {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+button.vcb {
+  background: #005596;
+  line-height: 30px;
+  width: 40%;
+  cursor: pointer;
+  border: none;
+  font-family: Arial, Tahoma;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.space {
+  border-bottom: 1px #ccc dotted;
+  margin: 22px;
+}
+
+span {
+  line-height: 30px;
+  color: #222;
+}
+
+span i {
+  color: #71b441;
+}
+label {
+  margin: 5px;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 13px;
+  color: #1c1b1b;
+}
+input[type="checkbox"] {
+    display: none;
+}

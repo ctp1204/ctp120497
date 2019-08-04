@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 50%;
+}
+input[type="text"],
+input[type="password"] {
+  border: medium none;
+  padding: 15px;
+  /* margin: 5px; */
+  border: 1px solid #cdcdcd;
+  width: 100%;
+  font-size: 15px;
+  font-family: Arial, Tahoma;
+}
+
+.btn-vcb {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+button.vcb {
+  width: 100%;
+  background: #008fd5;
+  color: #fff;
+  text-transform: none;
+  border-radius: 4px;
+  height: 44px;
+  margin-right: 0;
+  margin: 15px;
+}
+
+.space {
+  border-bottom: 1px #ccc dotted;
+  margin: 22px;
+}
+
+span {
+  line-height: 30px;
+  color: #222;
+}
+
+span i {
+  color: #71b441;
+}
+
+.left {
+  float: left;
+  list-style: none;
+}
+
+.right {
+  float: right;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #208fd5;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 480px){
+  .left {
+    float: left;
+    list-style: none;
+  }
+  
+  .right {
+    float: left;
+    list-style: none;
+  }
+}
+input[type="checkbox"] {
+    display: none;
+}

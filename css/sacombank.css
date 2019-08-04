@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: medium none;
+  padding: 6px;
+  margin: 5px;
+  border: 1px solid #cdcdcd;
+  width: 100%;
+  font-size: 12px;
+  font-family: Arial, Tahoma;
+}
+
+.btn-vcb {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+button.vcb {
+  background: #2600a3;
+  line-height: 30px;
+  width: 50%;
+  cursor: pointer;
+  border: none;
+  font-family: Arial, Tahoma;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.space {
+  border-bottom: 1px #ccc dotted;
+  margin: 22px;
+}
+
+span {
+  line-height: 30px;
+  color: #222;
+}
+
+span i {
+  color: #1d89cf;
+}
+
+.container {
+  background: #fdfbfb;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding: 40px 30px 10px 10px;
+  margin-top: 40px;
+}
+
+.section {
+  background: lightgray;
+  padding: 13px;
+  width: 71.5%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.hotline p {
+  line-height: 25px;
+  font-weight: bold;
+  color: #bf0e0e;
+  font-family: Arial;
+}
+
+.phone p {
+  line-height: 25px;
+  font-weight: bold;
+  color: #1d89cf;
+  font-family: Arial;
+}
+input[type="checkbox"] {
+    display: none;
+}
